@@ -43,10 +43,7 @@ record Student(int id, String name ){
 
 ```
 
-```markdown
 > This is not valid
-```
-
 
 ```java
 record Student(int id, String name ){
