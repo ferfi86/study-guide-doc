@@ -43,6 +43,10 @@ record Student(int id, String name ){
 
 ```
 
+{% hint style="danger" %}
+**Danger hints** This is not valid.
+{% endhint %}
+
 > This is not valid
 
 ```java
