@@ -2,6 +2,6 @@
 
 * [Java 17](README.md)
 
-## Group 1
+## record
 
-* [Page 1](group-1/page-1.md)
+* [description](record/description.md)
