@@ -4,7 +4,7 @@
 
 A record declaration specifies a new record class, a restricted kind of class that defines a simple aggregate of values. A record declaration implicitly creates instance fields, which are private and final. It also implicitly creates public accessor methods for these fields. Together, the fields and the corresponding methods are called record "components". An accessor method is a method with the same name as the record field and an empty formal parameter list. Such methods act as the getter methods for those fields. For example:
 
-```
+```java
 public record Student(
   int id, //record component
   String name //record component
@@ -14,7 +14,7 @@ public record Student(
 
 This is roughly equivalent to the following class:
 
-```
+```java
 public final class Student extends Record
 {
    private final int id; //component field
@@ -49,7 +49,7 @@ The body of a record declaration may contain constructor and member declarations
 
 * canonical constructor:
 
-```
+```java
 public record Student(int id, String name){
     public Student{ //no parameter list is specified here
 	   if(id <0) throw new IllegalArgumentException();
@@ -59,7 +59,7 @@ public record Student(int id, String name){
 
 * non-canonical constructor
 
-```
+```java
 public record Student(int id, String name){
     public Student(){ //a non-canonical constructor
         this(10); //this line or a call to the canonical constructor is required 
