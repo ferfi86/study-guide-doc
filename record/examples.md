@@ -2,7 +2,7 @@
 
 #### Simple declaration
 
-```
+```java
 public record Student(int id, String name ){ 
 
 }
@@ -10,7 +10,7 @@ public record Student(int id, String name ){
 
 #### Explicit canonical constructor
 
-```
+```java
 record Student(int id, String name ){
     
     public Student(int id, String name){
@@ -23,7 +23,7 @@ record Student(int id, String name ){
 
 #### Multiple constructors
 
-```
+```java
 record Student(int id, String name ){
 
     public Student(int id, String name){
@@ -40,11 +40,31 @@ record Student(int id, String name ){
     }
 
 }
-```
-
-> This is not valid
 
 ```
+
+```markdown
+{% raw %}
+{% hint style="danger" %}
+**Danger hints** are good for highlighting destructive actions or raising attention to critical information.
+{% endhint %}
+{% endraw %}
+
+```
+
+```markdown
+**Danger hints** are good for highlighting destructive actions or raising attention to critical information.
+```
+
+```markdown
+{% raw %}
+{% endhint %}
+{% endraw %}
+```
+
+>
+
+```java
 record Student(int id, String name ){
 
     public Student(int id, String name){
