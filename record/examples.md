@@ -1,5 +1,11 @@
 # Examples
 
+## constructor
+
+{% hint style="success" %}
+**Success hints** Valid cases.
+{% endhint %}
+
 #### Simple declaration
 
 ```java
@@ -64,3 +70,35 @@ record Student(int id, String name ){
 
 }
 ```
+
+### Syntax
+
+Records are implicitly final, but is redundant.
+
+```java
+public final record Student(int id, String name ){ 
+}
+```
+
+A record may have at most one varargs component.
+
+{% hint style="success" %}
+**Success hints** Valid.
+{% endhint %}
+
+```java
+public final record Student(int id, String... values ){ 
+}
+```
+
+{% hint style="danger" %}
+**Danger hints** Invalid.
+{% endhint %}
+
+```java
+public final record Student(int... id, String... values ){ 
+}
+```
+
+
+
