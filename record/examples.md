@@ -47,7 +47,6 @@ record Student(int id, String name ){
 > This is not valid
 ```
 
->
 
 ```java
 record Student(int id, String name ){
