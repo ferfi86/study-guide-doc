@@ -47,8 +47,6 @@ record Student(int id, String name ){
 **Danger hints** This is not valid.
 {% endhint %}
 
-> This is not valid
-
 ```java
 record Student(int id, String name ){
 
