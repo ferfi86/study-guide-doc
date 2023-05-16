@@ -6,3 +6,7 @@
 
 * [description](record/description.md)
 * [Examples](record/examples.md)
+
+## Quick reference
+
+* [record](record/examples.md)
