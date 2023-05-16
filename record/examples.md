@@ -44,22 +44,7 @@ record Student(int id, String name ){
 ```
 
 ```markdown
-{% raw %}
-{% hint style="danger" %}
-**Danger hints** are good for highlighting destructive actions or raising attention to critical information.
-{% endhint %}
-{% endraw %}
-
-```
-
-```markdown
-**Danger hints** are good for highlighting destructive actions or raising attention to critical information.
-```
-
-```markdown
-{% raw %}
-{% endhint %}
-{% endraw %}
+> This is not valid
 ```
 
 >
