@@ -4,5 +4,5 @@
 
 ## record
 
-* [description](group-1/page-1.md)
+* [description](record/page-1.md)
 * [Examples](record/examples.md)
