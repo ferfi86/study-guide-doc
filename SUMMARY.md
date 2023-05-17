@@ -10,9 +10,4 @@
 ## sealed
 
 * [description](sealed/description.md)
-* [Examples](sealed/examples.md)
 
-## Quick reference
-
-* [record](record/examples.md)
-* [sealed](sealed/examples.md)
