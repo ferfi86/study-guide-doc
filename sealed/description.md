@@ -1,5 +1,11 @@
 # description
 
+
+> Only classes and interfaces can be marked as sealed.
+> 
+> Records are implicitly final, which means they cannot have any subclasses at all and so, it doesn't make sense to mark them as sealed.
+
+
 ### Syntax
 
 with keyword permits
