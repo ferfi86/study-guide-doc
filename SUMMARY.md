@@ -4,10 +4,16 @@
 
 ## record
 
-* [description](record/description.md)
-* [Examples](record/examples.md)
+* [description](record/record-description.md)
+* [Reference sheet](record/record-reference-sheet.md)
 
 ## sealed
 
-* [description](sealed/description.md)
+* [Reference sheet](sealed/sealed-reference-sheet.md)
+
+## Reference sheet
+
+* [record](record/record-reference-sheet.md)
+* [sealed](sealed/sealed-reference-sheet.md)
+
 
