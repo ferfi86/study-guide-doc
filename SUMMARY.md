@@ -16,5 +16,3 @@
 * Reference sheet
   * [📎 record](record/record-reference-sheet.md)
   * [📎 sealed](sealed/sealed-reference-sheet.md)
-
-
