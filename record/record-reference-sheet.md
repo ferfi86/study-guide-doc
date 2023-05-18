@@ -2,10 +2,6 @@
 
 ## constructor
 
-{% hint style="success" %}
-**Valid cases**.
-{% endhint %}
-
 #### Simple declaration
 
 ```java
@@ -49,9 +45,9 @@ record Student(int id, String name ){
 
 ```
 
-{% hint style="danger" %}
-**This is not valid**.
-{% endhint %}
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f6d1">🛑</span> Invalid</summary>
 
 ```java
 record Student(int id, String name ){
@@ -62,7 +58,8 @@ record Student(int id, String name ){
     }
 
     // THIS IS NOT VALID 
-    // Non-canonical record constructor must delegate to another constructor
+    // Non-canonical record constructor 
+    //must delegate to another constructor
     public Student(){
         this.id = id;
         this.name = name;
@@ -70,6 +67,8 @@ record Student(int id, String name ){
 
 }
 ```
+
+</details>
 
 ### Syntax
 
@@ -82,20 +81,20 @@ public final record Student(int id, String name ){
 
 A record may have at most one varargs component.
 
-{% hint style="success" %}
-**Valid.**
-{% endhint %}
-
 ```java
 public final record Student(int id, String... values ){ 
 }
 ```
 
-{% hint style="danger" %}
-**Invalid.**
-{% endhint %}
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f6d1">🛑</span> Invalid</summary>
 
 ```java
 public final record Student(int... id, String... values ){ 
 }
 ```
+
+
+
+</details>
