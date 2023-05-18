@@ -1,5 +1,4 @@
-# description
-
+# Sealed Reference Sheet
 
 > Only classes and interfaces can be marked as sealed.
 > 
