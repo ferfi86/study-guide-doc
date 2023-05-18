@@ -1,9 +1,8 @@
-# 📎 Sealed Reference Sheet
+# 📎 Sealed reference sheet
 
 > Only classes and interfaces can be marked as sealed.
-> 
+>
 > Records are implicitly final, which means they cannot have any subclasses at all and so, it doesn't make sense to mark them as sealed.
-
 
 ### Syntax
 
@@ -33,9 +32,8 @@ non-sealed class Car extends Vehicle{}
 
 ```
 
-
 {% hint style="danger" %}
-**Danger hints** if the **permits** keyword is used then it is necessary to declare all the classes that we want to allow.
+If the **permits** keyword is used then it is necessary to declare all the classes that we want to allow.
 {% endhint %}
 
 ```java
@@ -50,7 +48,7 @@ non-sealed class Car extends Vehicle{}
 ```
 
 {% hint style="danger" %}
-**Danger hints** Invalid declarate final a sealed class.
+**Invalid** declarate final a sealed class.
 {% endhint %}
 
 ```java
@@ -59,8 +57,7 @@ final public sealed class Vehicle permits Car,Truck  {
 ```
 
 {% hint style="danger" %}
-**Danger hints** Invalid, It is necessary to declare the class as final or non-sealed,
-when extends a sealed class.
+**Invalid** It is necessary to declare the class as final or non-sealed, when extends a sealed class.
 {% endhint %}
 
 ```java
@@ -71,6 +68,3 @@ public sealed class Vehicle permits Car  {
 class Car extends Vehicle{}
 
 ```
-
-
-

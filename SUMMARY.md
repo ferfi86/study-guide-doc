@@ -4,12 +4,12 @@
 
 ## record
 
-* [📘 description](record/record-description.md)
-  * [📎 Reference sheet](record/record-reference-sheet.md)
+* [📘 Record](record/record-description.md)
+  * [📎 Record reference sheet](record/record-reference-sheet.md)
 
 ## sealed
 
-* [📎 Reference sheet](sealed/sealed-reference-sheet.md)
+* [📎 Sealed reference sheet](sealed/sealed-reference-sheet.md)
 
 ***
 

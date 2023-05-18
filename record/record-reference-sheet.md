@@ -3,7 +3,7 @@
 ## constructor
 
 {% hint style="success" %}
-**Success hints** Valid cases.
+**Valid cases**.
 {% endhint %}
 
 #### Simple declaration
@@ -50,7 +50,7 @@ record Student(int id, String name ){
 ```
 
 {% hint style="danger" %}
-**Danger hints** This is not valid.
+**This is not valid**.
 {% endhint %}
 
 ```java
@@ -83,7 +83,7 @@ public final record Student(int id, String name ){
 A record may have at most one varargs component.
 
 {% hint style="success" %}
-**Success hints** Valid.
+**Valid.**
 {% endhint %}
 
 ```java
@@ -92,13 +92,10 @@ public final record Student(int id, String... values ){
 ```
 
 {% hint style="danger" %}
-**Danger hints** Invalid.
+**Invalid.**
 {% endhint %}
 
 ```java
 public final record Student(int... id, String... values ){ 
 }
 ```
-
-
-
