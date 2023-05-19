@@ -2,17 +2,11 @@
 
 * [📖 Study guide](README.md)
 
-## record
-
-* [📘 Record](record/record-description.md)
-  * [📎 Record reference sheet](record/record-reference-sheet.md)
-
-## sealed
-
-* [📎 Sealed reference sheet](sealed/sealed-reference-sheet.md)
+## Java 17
 
 ***
 
-* [Reference sheet](reference-sheet/README.md)
-  *
-  *
+* [☕ Java 17](java-17-1/README.md)
+  * [📗 Record](java-17-1/record-description/README.md)
+    * [📎 Record reference sheet](java-17-1/record-description/record-reference-sheet.md)
+  * [📗 Sealed](java-17-1/sealed-reference-sheet.md)

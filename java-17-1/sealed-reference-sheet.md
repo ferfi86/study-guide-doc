@@ -1,4 +1,4 @@
-# 📎 Sealed reference sheet
+# 📗 Sealed
 
 > Only classes and interfaces can be marked as sealed.
 >
