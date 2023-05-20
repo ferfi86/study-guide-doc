@@ -8,3 +8,4 @@
   * [📗 Record](java-17/record-description/README.md)
     * [📎 Record reference sheet](java-17/record-description/record-reference-sheet.md)
   * [📗 Sealed](java-17/sealed-reference-sheet.md)
+  * [📘 Enum](java-17/java-17/enum.md)
